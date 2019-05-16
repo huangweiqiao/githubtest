@@ -1,0 +1,10 @@
+<binding name="binding" package="">
+  <mapping abstract="true" type-name="student" class="Student">
+    <value style="element" name="name" field="name" usage="optional"/>
+    <value style="attribute" name="age" field="age"/>
+    <value style="element" name="address" field="address" usage="optional"/>
+  </mapping>
+  <mapping class="Student" name="student">
+    <structure map-as="student"/>
+  </mapping>
+</binding>
